@@ -1,0 +1,53 @@
+body
+{
+    background-color: #e7e7e7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav
+{
+    background-color: rgb(61, 255, 43);
+    width: 100%;
+    color: black;
+}
+
+
+nav ul
+{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav li
+{
+    list-style-type: none;
+    float: left;
+}
+
+nav a
+{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 30px;
+    color: white;
+}
+
+.menu :hover
+{
+    background-color: #99ffa2;
+    transition: ease;
+    transition-duration: 0.2s;
+}
+
+
+
+@media screen and (max-device-width: 480px) {
+    body{
+        font-size: 3em;
+    }
+
+}
